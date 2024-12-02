@@ -17,7 +17,7 @@ public class Jolteon extends Eevee {
 
     @Override
     public String defesa() {
-        return "Carga";
+        return "Agilidade";
     }
 
     @Override
