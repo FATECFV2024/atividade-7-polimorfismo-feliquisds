@@ -90,5 +90,6 @@ public class Eevee {
         System.out.println("Ataque: " + ataque());
         System.out.println("Defesa: " + defesa());
         System.out.println("Especial: " + especial());
+        System.out.println("");
     }
 }
