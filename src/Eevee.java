@@ -76,4 +76,11 @@ public class Eevee {
     public String especial() {
         return "Tri-ataque";
     }
+
+    public void printInfo() {
+        System.out.println("Eu sou: " + nome);
+        System.out.println("Ataque: " + ataque());
+        System.out.println("Defesa: " + defesa());
+        System.out.println("Especial: " + especial());
+    }
 }
