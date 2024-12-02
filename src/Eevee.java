@@ -76,11 +76,11 @@ public class Eevee {
     }
 
     public String defesa() {
-        return "Desvio";
+        return "Imitador";
     }
 
     public String especial() {
-        return "Tri-ataque";
+        return "Fugir";
     }
 
     public void printInfo() {
