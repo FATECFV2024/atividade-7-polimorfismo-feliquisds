@@ -1,16 +1,28 @@
 public class Eevee {
+    private String nome = "Eevee";
     private String tipo = "Normal";
     private int altura, HP;
     private double peso;
 
 
 
-    public Eevee(int altura, int HP, double peso) {
+    public Eevee(String nome, int altura, int HP, double peso) {
+        this.nome = nome;
         this.altura = altura;
         this.HP = HP;
         this.peso = peso;
     }
 
+
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    
 
 
     public String getTipo() {
