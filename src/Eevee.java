@@ -85,6 +85,8 @@ public class Eevee {
 
     public void printInfo() {
         System.out.println("Eu sou: " + nome);
+        System.out.println("Tipo: " + tipo);
+        System.out.println(HP + " HP, " + peso + "Kg, " + altura + "cm");
         System.out.println("Ataque: " + ataque());
         System.out.println("Defesa: " + defesa());
         System.out.println("Especial: " + especial());
