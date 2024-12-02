@@ -5,8 +5,7 @@ public class Jolteon extends Eevee {
     }
 
     public Jolteon(int altura, int HP, double peso) {
-        super(altura, HP, peso);
-        setNome("Jolteon");
+        super("Jolteon", altura, HP, peso);
         setTipo("Elétrico");
     }    
 
