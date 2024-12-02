@@ -13,6 +13,12 @@ public class Eevee {
         this.peso = peso;
     }
 
+    public Eevee(int altura, int HP, double peso) {
+        this.altura = altura;
+        this.HP = HP;
+        this.peso = peso;
+    }    
+
 
 
     public String getNome() {
